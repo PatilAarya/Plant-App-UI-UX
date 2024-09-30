@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Plant App Ui</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_description">Learning the most common types of weeds can help you identify these plants in your lawn and garden. Many common weeds have in their name, like ragweed, knotweed, and chickweed.\n\nWeeds are often thought of as nuisance plants that invade lawns and gardens. If you can identify which plants are weeds, you can also learn how to control or eradicate these common types of weeds.\n\nYou might not want to get rid of some attractive weeds, as they can serve as a useful groundcover, they can be potted to remain controlled, and some are edible. Poisonous or extremely invasive weeds are best removed, while other weeds may be more welcome around your home.
+</string>
+    <string name="text_insects_description"> Those annoying yet abundant pests that can destroy plants and all your good work in the garden are a big problem in summer if you\'re not vigilant. Now is the time to start checking plants for signs that pests are laying eggs or setting up home on leaves in preparation for a bumper feed once summer comes.\n\nControlling the spread of plant pests is important for beautiful ornamental plants and a healthy vegetable garden. As well as eating and damaging plants and vegetable garden crops, they also help spread various viral, fungal and bacterial pathogens. If infestations get out of control it may be necessary to resort to chemical methods, which harm biodiversity in the garden and endanger pollinators like bees and butterflies.</string>
+    <string name="text_diseases_description"> Plant disease, an impairment of the normal state of a plant that interrupts or modifies its vital functions. All species of plants, wild and cultivated alike, are subject to disease. Although each species is susceptible to characteristic diseases, these are, in each case, relatively few in number. The occurrence and prevalence of plant diseases vary from season to season, depending on the presence of the pathogen, environmental conditions, and the crops and varieties grown. Some plant varieties are particularly subject to outbreaks of diseases while others are more resistant to them. See also list of plant diseases.</string>
+    <string name="text_products_description">As any green thumb would tell you: never throw away your grass clippings! They’re a superb source of nitrogen. Additionally, your soil will benefit from the added potassium, phosphorus, chlorophyll, and amino acids.
+Fill a net bag with your grass clippings.
+Place that in a large bucket. A five-gallon bucket or larger will do the job.
+Fill with water and leave the clippings to steep.
+Let the grass clippings soak for a few days.
+What will happen is the chemicals from the grass clippings will be released into the water. You can then use that water to feed your plants, then add the grass clippings to your compost pile.
+Cornell University has a good table of rich sources for both and guidance notes for using carbon and nitrogen ratios to make quality compost.</string>
+    <string name="text_help_description">We are a community who love to share Happiness through giving others \Plants</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

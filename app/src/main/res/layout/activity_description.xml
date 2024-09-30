@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/plant_image"
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:contentDescription="Plant Image"
+        android:src="@drawable/img_main" />
+
+    <TextView
+        android:id="@+id/plant_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="320dp"
+        android:text="Algora Plant"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/plant_cost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_below="@id/plant_name"
+        android:text="$300"
+        android:textSize="20sp"
+        android:textColor="@color/teal_700" />
+
+    <TextView
+        android:id="@+id/description_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:text="A plant was chosen for its highly decorative and unusual leaf shape and pattern. This plant is found in Brazil. In any house, its topside shiny leaves look beautiful and contrast with purple wall. Always notice that this plant needs a humid environment for surviving.\n\nSunlight should be:- Keep your plant in shadowy support with the light of indirect sunlight because too much sunshine will burn it and make its leaf brown."
+        android:textColor="@color/teal"
+        android:textSize="17sp" />
+
+</RelativeLayout>

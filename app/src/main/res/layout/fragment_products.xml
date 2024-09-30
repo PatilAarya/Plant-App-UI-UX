@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fragment_products.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ImageView for the image of plant products -->
+    <ImageView
+        android:id="@+id/image_products"
+        android:layout_width="380dp"
+        android:layout_height="250dp"
+        android:src="@drawable/products_image"
+        android:adjustViewBounds="true"
+        android:contentDescription="Image of plant products" />
+
+    <!-- TextView for the description -->
+    <TextView
+        android:id="@+id/text_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="About Products:"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_description_products"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_products_description"
+        android:textSize="17sp"
+        android:textColor="@color/teal" />
+
+</LinearLayout>

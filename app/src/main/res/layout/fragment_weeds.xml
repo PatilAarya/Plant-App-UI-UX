@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fragment_weeds.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ImageView for the image of weeds -->
+    <ImageView
+        android:id="@+id/image_weeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/weeds_image"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:contentDescription="Image of weeds" />
+
+    <!-- TextView for the description -->
+    <TextView
+        android:id="@+id/text_weeds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="About Weeds:"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Learning the most common types of weeds can help you identify these plants in your lawn and garden. Many common weeds have in their name, like ragweed, knotweed, and chickweed.\n\nWeeds are often thought of as nuisance plants that invade lawns and gardens. If you can identify which plants are weeds, you can also learn how to control or eradicate these common types of weeds.\n\nYou might not want to get rid of some attractive weeds, as they can serve as a useful groundcover, they can be potted to remain controlled, and some are edible. Poisonous or extremely invasive weeds are best removed, while other weeds may be more welcome around your home."
+        android:textSize="17sp"
+        android:textColor="@color/teal" />
+
+</LinearLayout>

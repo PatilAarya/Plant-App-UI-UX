@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fragment_insects.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ImageView for the image of insects -->
+    <ImageView
+        android:id="@+id/image_insects"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:src="@drawable/insects_image"
+        android:adjustViewBounds="true"
+        android:contentDescription="Image of insects" />
+
+    <!-- TextView for the description -->
+    <TextView
+        android:id="@+id/text_insects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="About Insects:"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_description_insects"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_insects_description"
+        android:textSize="17sp"
+        android:textColor="@color/teal" />
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- fragment_diseases.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- ImageView for the image of diseases -->
+    <ImageView
+        android:id="@+id/image_diseases"
+        android:layout_width="325dp"
+        android:layout_height="300dp"
+        android:src="@drawable/diseases_image"
+        android:adjustViewBounds="true"
+        android:contentDescription="Image of diseases" />
+
+    <!-- TextView for the description -->
+    <TextView
+        android:id="@+id/text_diseases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="About Diseases:"
+        android:textSize="20sp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/text_description_diseases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_diseases_description"
+        android:textSize="17sp"
+        android:textColor="@color/teal" />
+
+</LinearLayout>
