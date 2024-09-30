@@ -1,4 +1,4 @@
-🌿 Plant App 🌿 
+🌿 Plant App 🌿
 Welcome to Plant App, a user-friendly and feature-packed mobile application designed to assist plant lovers in taking care of their plants with ease. Whether you're a seasoned gardener or a beginner, Plant App provides all the tools you need to keep your plants healthy and happy.
 
 🚀 Features:
